@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: radial-gradient( #7d5fff, #7158e2);
+    
+}
+.container{
+    display: flex;
+    font-size: 2rem;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+input{
+    background-color: white;
+    border: none;
+    transition: all 0.5s ease;
+    width: 100%;
+
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    background-color: white;
+    border: none;
+    /* transition: all 0.5s ease; */
+}
+button:focus{
+    outline: none;
+}
+
+.hide{
+width:0;
+transition: all 0.5s ease;
+
+}
+
